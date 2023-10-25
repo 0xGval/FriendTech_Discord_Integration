@@ -1,7 +1,9 @@
 # FriendTech_Discord_Integration
 Set of scripts to map a dedicated discord to the rooms of the keys you own on friendtech and auto forward messages in both directions through your own discord bot.
 
-The mapping requires you to have n° discord channels to map each channel to a specific room of a key you own on Friend Tech. 
+The mapping requires you to have n° discord channels to map each channel to a specific room of a key you own on Friend Tech.
+
+***This is the first version and even if it is pretty stable and support filters for avoiding forwarding bots messages etc, it still a v1.  Logs needs to be cleaned and structured and sending or receiving pictures isn't supported yet.**
 
 ### Prerequisites
 
@@ -51,7 +53,7 @@ The mapping requires you to have n° discord channels to map each channel to a s
 1. **sample.env**:
    - Rename sample.env to .env
    - Open the .env file in a text editor and replace PASTE_YOUR_FRIEND_TECH_JWT_AUTHORIZATION_TOKEN_HERE with your Friend Tech JWT token.
- > **Remember, your JWT token is EXTREMELY confidential as gives access to your Friend Tech account. The script stores it in a .env file that ALWAYS stays on yoir local machine. It is your responsibility to ensure the .env file is protected adequatly**
+ > **REMEMBER: your JWT token is EXTREMELY confidential as gives access to your Friend Tech account. The script stores it in a .env file that ALWAYS stays on your local machine. It is YOUR responsibility to ensure the .env file is protected adequately**
    - Replace PASTE_YOUR_DISCORD_BOT_TOKEN with your Discord Bot token you saved earlier.
   
 2. **sample.config**:
